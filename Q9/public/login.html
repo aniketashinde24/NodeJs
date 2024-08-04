@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        #div1{
+    width: 250px;
+    height: 180px;
+    padding: 20px;
+    border: 2px solid grey;
+    font-size: 20px;
+}
+
+#btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 70px;
+    height: 25px;
+    background-color: greenyellow;
+    border-radius: 50px;
+}
+
+.input{
+    background-color: aqua;
+    border-radius: 5px;
+    font-size: 17px;
+}
+    </style>
+</head>
+<body>
+    <form action="/userValidation">
+        <div id="div1">
+            <label for="uname">Username</label>
+            <input type="text" class="input" name="uname" id="uname"/> <br><br>
+            <label for="pword">Password</label>
+            <input type="password" class="input" name="pword" id="pword"/><br><br>
+            <button type="submit" name="btn" id="btn">Login</button>            
+        </div>
+    </form>
+</body>
+</html>
